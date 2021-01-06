@@ -4,8 +4,6 @@ import "../style.css";
 
 const GetImg=(props)=>{
 const storePost=()=>{
-  
-   console.log("save");
    const getDate=()=>{
    let today = new Date();
    let date = today.getDate()+'/'+(today.getMonth()+1)+'/'+today.getFullYear();
